@@ -1,0 +1,92 @@
+@media screen and (min-width:480px) and (max-width: 767px){
+	.mobile-container {
+		max-width: 767px;
+	}
+
+.service1, .service2, .service3, .service4 { 
+	width: 50%;
+}
+
+}
+
+@media screen and (min-width: 767px){
+	.s1{
+		background-image: url(../Assets/banner-1-767.png);
+		font-size: 2em;
+	}
+	.project1, .project2, .project3, .project4, .project5, .project6, .project7, .project8{
+		width: 450px;
+		height: 280px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		margin: 10px;
+	}
+	.project1 {
+		background-image: url(../Assets/project1.png);	
+	}
+	.project2 {
+		background-image: url(../Assets/project2.png);	
+	}
+	.project3 {
+		background-image: url(../Assets/project3.png);
+	}
+	.project4 {
+		background-image: url(../Assets/project4.png);	
+	}
+	.project5 {
+		background-image: url(../Assets/project5.png);
+	}
+	.project6 {
+		background-image: url(../Assets/project6.png);
+	}
+	.project7 {
+		background-image: url(../Assets/project7.png);
+	}
+	.project8 {
+		background-image: url(../Assets/project8.png);
+	}
+	.justOne {
+		width: 70%;
+		box-sizing: border-box;
+		background-color: #e6ebee;
+		margin: 40px;
+		box-shadow: -10px 25px 50px rgba(0, 0, 0, 0.3);	
+	}
+}
+
+@media screen and (min-width: 1024px){
+	.s1{
+		background-image: url(../Assets/banner-1-1400.png);
+	}
+	.privacy p {
+		width: 35%;
+	}
+	.topnav #myLinks {
+		display: flex;
+		justify-content: flex-end;
+		position: fixed;
+		width: 55%;
+		top: 10px;
+		right: 0;
+		z-index: 100;
+		margin: auto 0;
+	  }
+	  .fa-bars{
+		display: none;
+	}
+	#myLinks{
+		background-color: white;
+
+	}
+	.topnav a {
+		color: #3b459c;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 1em;
+		display:inline-block;
+	  }
+	  .BBB{
+		  width: 70%;
+	  }
+}
