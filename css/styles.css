@@ -93,9 +93,12 @@ html, body {
   }
   .BBB a{
 	  color: white;
-	  font-size: 1em;
+	  font-size: 40px;
 	  text-decoration: none;
 	  
+  }
+  .BBB p{
+	  font-size: 35px;
   }
   .topnav a {
 	color: white;
@@ -124,13 +127,7 @@ html, body {
 	color: black;
   }
   
-  .active {
-	  top: 0;
-	color: white;
-	width: 200px;
-	height: auto;
-	position: sticky;
-  }
+ 
   .topMid{
 	  margin-left: 20px;
 	  width: 100%;
