@@ -196,19 +196,20 @@ html, body {
 
 }
 .justB {
+	margin-bottom: 0;
 	width: 100%;
-	height: 60%;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 
 }
 .oneB {
 	width: 100%;
-	height: 200px;
+	height: 130px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-top: 20px;
+	margin-top: 170px;
 }
 .service1, .service2, .service3{
 	position: relative;
@@ -216,7 +217,6 @@ html, body {
 	height: 650px;
 	display: flex;
 	justify-content: center;
-	
 	margin: 20px;
 	line-height: 24px;
 	font-size: 18px;
@@ -231,7 +231,7 @@ html, body {
 }
 
 #contS {
-	height: auto;
+	position: relative;
 	width: 300px;
 	background: #3b459c;
 	display: flex;
@@ -258,6 +258,7 @@ html, body {
 	margin-top: 0;
 }
 .firstPic {
+	position: absolute;
 	width: 300px;
 	height: 150px;
 	object-fit: cover;
