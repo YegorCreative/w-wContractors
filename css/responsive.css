@@ -53,7 +53,7 @@
 		margin: 40px;
 		box-shadow: -10px 25px 50px rgba(0, 0, 0, 0.3);	
 	}
-	  .testimon2 {
+	.testimon2 {
 		width:350px;
 		font-size: 1.1em;
 	}
@@ -93,5 +93,15 @@
 	  .BBB{
 		  width: 70%;
 	  }
-	
+	  
+	  .testimon2 {
+		width:440px;
+		
+	}
+}
+@media screen and (min-width: 1360px){
+	.testimon2 {
+		width:320px;
+		
+	}
 }
